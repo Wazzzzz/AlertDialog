@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/alert_dialog_standard_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="alert dialog standard"/>
+
+    <Button
+        android:id="@+id/alert_dialog_action_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="alert dialog action"/>
+
+    <Button
+        android:id="@+id/alert_dialog_custom_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="alert dialog custom"/>
+
+    <Button
+        android:id="@+id/fragment_dialog_button"
+        android:text="Fragment Dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="16dp"
+        android:id="@+id/name_edit_text"
+        android:hint="masukkan nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/fragment_dialog_data_button"
+        android:text="Fragment Dialog Dengan Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
